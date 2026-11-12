@@ -1,0 +1,14 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    volumes:
+      - sqlite_data:/app/data
+    env_file:
+      - .env
+
+volumes:
+  sqlite_data:

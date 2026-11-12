@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Host/Host.csproj" />
+    <Project Path="src/Application/Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/">
+    <Project Path="src/Modules/SavedMessage/SavedMessage.csproj" />
+  </Folder>
+</Solution>
